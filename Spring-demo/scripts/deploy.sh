@@ -1,6 +1,6 @@
 #!/bin/zsh
 # 작업 디렉토리 변경
-cd /Users/$(whoami)/jenkins_home/custom/cicd-demo
+cd /var/jenkins_home/custom/cicd-demo
 
 # 환경변수 설정
 DOCKER_APP_NAME=spring-cicd-demo
