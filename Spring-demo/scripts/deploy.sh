@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 # 작업 디렉토리 변경
 cd /var/jenkins_home/custom/cicd-demo
 
