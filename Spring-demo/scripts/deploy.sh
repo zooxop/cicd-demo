@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# 환경변수로 Docker 호스트 지정
+export DOCKER_HOST="unix:///var/run/docker.sock"
+
 # 작업 디렉토리 변경
 cd /var/jenkins_home/custom/cicd-demo
 
