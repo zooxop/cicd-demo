@@ -3,7 +3,7 @@ services:
   backend:
     build: .
     ports:
-      - "8112:80"
+      - "8112:8080"
     container_name: spring-cicd-demo-green
     environment:
       - TZ=Asia/Seoul
